@@ -1,4 +1,13 @@
 body 
 {
-    background-color: #333333;
+    background-color: #212121;
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#name
+{
+	text-align: center;
+	vertical-align: middle;
 }

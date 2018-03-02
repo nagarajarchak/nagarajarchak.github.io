@@ -7,7 +7,9 @@ body
 }
 
 #intro {
+	
 	color: #ffffff;
 	text-align: center;
 	vertical-align: middle;
+	font-family: 'Lato', sans-serif;
 }

@@ -33,3 +33,24 @@ html, body {
 	left: 3%;
 }
 
+.intrigued {
+	top: 43%;
+	width: 100%;
+	color: #fff;
+	position: absolute;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.2rem;
+	font-weight: 100;
+}
+
+.typewriter {
+	top: 46%;
+	width: 100%;
+	color: #fff;
+	position: absolute;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 3rem;
+	font-weight: 800;
+}

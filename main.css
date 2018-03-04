@@ -1,15 +1,35 @@
-body 
-{
-    background-color: #212121;
-    color: #ffffff;
-    text-align: center;
-    vertical-align: middle;
+* {	
+	margin: 0;
+	padding: 0;
 }
 
-#intro {
-	
-	color: #ffffff;
-	text-align: center;
-	vertical-align: middle;
-	font-family: 'Lato', sans-serif;
+html, body {
+	height: 100%;
 }
+
+.header {
+	background-color: #212333;
+	height: 100%;
+	width: 100%;
+}
+
+#particles-js {
+	height: 100%;
+}
+
+.row {
+	top: 4%;
+	width: 100%;
+	color: #fff;
+	position: absolute;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.1em;
+	font-weight: 800;
+}
+
+.col-sm-8 {
+	text-align: left;
+	left: 3%;
+}
+

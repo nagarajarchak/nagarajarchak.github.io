@@ -15,6 +15,17 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="https://cdn.bootcss.com/typed.js/1.1.4/typed.min.js"></script>
+  <script type="text/javascript">
+    $(function(){
+          $(".write").typed({
+              strings: ["Deep Learning","Neural Networks","Music Information Retrieval","Drums","Artificial Intelligence","Hindustani Music","Minimalism","Convolutional Neural Networks","Tabla","Digital Audio Workstations","Recurrent Neural Networks","Ukulele","Computer Vision","Web Design"],
+              typeSpeed: 30,
+              backSpeed: 10,
+              loop: true
+          });
+      });
+  </script>
 </head>
 
 <body>
@@ -28,10 +39,24 @@
         <div class="col-sm-1">Resume</div>
         <div class="col-sm-1">Contact</div>
       </div>
-      <div class="intrigued">I'm intrigued by:</div>
-      <div class="typewriter">Deep Learning</div>
+
+        <div class="row typer1">
+          <div class="col-sm-12 intrigued">I'm intrigued by:</div>
+        </div>
+
+        <div class="row typer2"> 
+          <div class="col-sm-12 typewriter write"></div>
+        </div>
+     
+      </div> 
     </div>
   </div>
+
+  
+    <!-- <span class="write"></span> -->
+  
+
+  
   
   <script src="js/particles.js"></script>
   <script src="js/app.js"></script>

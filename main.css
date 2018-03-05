@@ -33,6 +33,14 @@ html, body {
 	left: 3%;
 }
 
+.typer1 {
+	top: 43%;
+}
+
+.typer2 {
+	top: 45%;
+}
+
 .intrigued {
 	top: 43%;
 	width: 100%;
@@ -45,7 +53,7 @@ html, body {
 }
 
 .typewriter {
-	top: 46%;
+	top: 48%;
 	width: 100%;
 	color: #fff;
 	position: absolute;

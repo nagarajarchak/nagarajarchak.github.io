@@ -25,20 +25,30 @@
               loop: true
           });
       });
+
+    $(function(){
+          $(".kannada").typed({
+              strings: ["Nagaraj Archak", "ನಾಗರಾಜ್ ಆರ್ಚಕ್", "नागराज आर्चक"],
+              typeSpeed: 30,
+              backSpeed: 10,
+              loop: true
+          });
+      });
   </script>
 </head>
 
-<body>
+  <body>
 
-  <div class="header">
-    <div id="particles-js">
-      <div class="row">
-        <div class="col-sm-8">Hello, I'm Nagaraj</div>
-        <div class="col-sm-1">About</div>
-        <div class="col-sm-1">Projects</div>
-        <div class="col-sm-1">Resume</div>
-        <div class="col-sm-1">Contact</div>
-      </div>
+    <div class="header1">
+      <div id="particles-js">
+
+        <div class="row">
+          <div class="col-sm-8">Hello, I'm Nagaraj</div>
+          <div class="col-sm-1">About</div>
+          <div class="col-sm-1">Projects</div>
+          <div class="col-sm-1">Resume</div>
+          <div class="col-sm-1">Contact</div>
+        </div>
 
         <div class="row typer1">
           <div class="col-sm-12 intrigued">I'm intrigued by:</div>
@@ -47,20 +57,37 @@
         <div class="row typer2"> 
           <div class="col-sm-12 typewriter write"></div>
         </div>
-     
-      </div> 
+          
+      </div>
     </div>
-  </div>
 
-  
-    <!-- <span class="write"></span> -->
-  
+    <div class="header2">
+      
+      <div class="row aboutrow1">
+        <div class="col-sm-5 me"></div>
+        <div class="col-sm-7 aboutme"></div>
+      </div>  
+      <div class="row aboutrowm">
+        <div class="col-sm-5 me"><img src="images/me.jpg" class="rounded-circle img-fluid" alt="This is me."></div>
+        <div class="col-sm-6 aboutme">
+          <p id="whoami"></p>
+          Hello! My name is Nagaraj Archak<span id="kann"> ( ನಾಗರಾಜ್ ಆರ್ಚಕ್ )</span>
+          <p id="whoami"></p>
+          <p id="whoami">I'm a final year undergraduate student at National Institute of Technology Tiruchirappalli, pursuing Bachelor of Technology in Electronics &amp Communication Engineering. However artificial intelligence, web design and music keep me engaged more than anything else. I spend most of my time exploring new technologies and learning new things everyday and when I'm not doing that you'll find me in my jam room making music or even exploring coffee. 
+          </p>
+        </div>
+        <div class="col-sm-1"></div>
+      </div> 
+      <div class="row aboutrow2">
+        <div class="col-sm-5 me"></div>
+        <div class="col-sm-7 aboutme"></div>
+      </div>   
 
-  
-  
-  <script src="js/particles.js"></script>
-  <script src="js/app.js"></script>
+    </div>
 
-</body>
+    <script src="js/particles.js"></script>
+    <script src="js/app.js"></script>
+
+  </body>
 
 </html>

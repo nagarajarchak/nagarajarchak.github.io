@@ -30,17 +30,18 @@ html, body {
 	font-weight: 900;
 }
 
-.col-sm-8 {
+.col-sm-9 {
 	text-align: left;
 	left: 2.5%;
 }
+
 
 .typer1 {
 	top: 42%;
 }
 
 .typer2 {
-	top: 45%;
+	top: 46%;
 }
 
 .intrigued {
@@ -130,4 +131,64 @@ html, body {
 #whoami {
 	font-size: 0.9em;
 	font-weight: 300;
+}
+
+.aaa, .bbb, .ccc {
+	background-color: transparent;
+}
+
+.aaa #Res {
+	color: #fff;
+	transition: 0.5s;
+	text-decoration: none;
+	background-color: transparent;
+	position: relative;
+	transition: 0.5s;
+}
+
+.aaa:hover {
+	background-color: #fff;
+	color: #000;
+	transition: 0.5s;
+}
+
+.aaa #Res:hover {
+	color: #000;
+}
+
+.bbb #Res {
+	color: #fff;
+	transition: 0.5s;
+	text-decoration: none;
+	background-color: transparent;
+	position: relative;
+	transition: 0.5s;
+}
+
+.bbb:hover {
+	background-color: #fff;
+	color: #000000;
+	transition: 0.5s;
+}
+
+.bbb #Res:hover {
+	color: #000;
+}
+
+.ccc #Res {
+	color: #fff;
+	text-decoration: none;
+	background-color: transparent;
+	position: relative;
+	transition: 0.5s;
+}
+
+.ccc:hover {
+	background-color: #fff;
+	color: #000;
+	transition: 0.5s;
+}
+
+.ccc #Res:hover {
+	color: #000;
 }

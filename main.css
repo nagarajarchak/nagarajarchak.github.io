@@ -276,3 +276,184 @@ html, body {
 	top: 78%;
 	left: 0px;
 }
+
+/******************************************
+			      PAGE IV  
+*******************************************/
+
+.header4 {
+	background-color: #f0f0f0;
+	height: 80%;
+	width: 100%;
+	position: relative;
+}
+
+.skillhead {
+	color: #000;
+	font-size: 3rem;
+	top: 3%;
+	left: 0;
+}
+
+#cert {
+	color: #000;
+	text-decoration: none;
+}
+#cert:hover {
+	color: #909090;
+	text-decoration: none;
+}
+
+.cou1 {
+	color: #000;
+	text-align: left;
+	font-size: 1.2rem;
+	top: 17%;
+	left: 0px;
+}
+
+.cou1des1 {
+	color: #000;
+	line-height: 1.2em;
+	text-align: left;
+	font-size: 1rem;
+	font-weight: 500;
+	top: 21%;
+	left: 0px;
+}
+
+.cou1des2 {
+	color: #000;
+	line-height: 1.2em;
+	text-align: left;
+	font-size: 0.9rem;
+	font-weight: 100;
+	top: 5px;
+	left: 0px;
+}
+
+.cou2 {
+	color: #000;
+	text-align: left;
+	font-size: 1.2rem;
+	top: 26%;
+	left: 0px;
+}
+
+.cou2des1 {
+	color: #000;
+	line-height: 1.2em;
+	text-align: left;
+	font-size: 1rem;
+	font-weight: 500;
+	top: 35%;
+	left: 0px;
+}
+
+.cou3 {
+	color: #000;
+	text-align: left;
+	font-size: 1.2rem;
+	top: 40%;
+	left: 0px;
+}
+
+.cou3des1 {
+	color: #000;
+	line-height: 1.2em;
+	text-align: left;
+	font-size: 1rem;
+	font-weight: 500;
+	top: 44%;
+	left: 0px;
+}
+
+.cou4 {
+	color: #000;
+	text-align: left;
+	font-size: 1.2rem;
+	top: 49%;
+	left: 0px;
+}
+
+.cou4des1 {
+	color: #000;
+	line-height: 1.2em;
+	text-align: left;
+	font-size: 1rem;
+	font-weight: 500;
+	top: 53%;
+	left: 0px;
+}
+
+.cou5 {
+	color: #000;
+	text-align: left;
+	font-size: 1.2rem;
+	top: 57%;
+	left: 0px;
+}
+
+.cou5des1 {
+	color: #000;
+	line-height: 1.2em;
+	text-align: left;
+	font-size: 1rem;
+	font-weight: 500;
+	top: 61%;
+	left: 0px;
+}
+
+.cou6 {
+	color: #000;
+	text-align: left;
+	font-size: 1.2rem;
+	top: 65%;
+	left: 0px;
+}
+
+.cou6des1 {
+	color: #000;
+	line-height: 1.2em;
+	text-align: left;
+	font-size: 1rem;
+	font-weight: 500;
+	top: 69%;
+	left: 0px;
+}
+
+.cou7 {
+	color: #000;
+	text-align: left;
+	font-size: 1.2rem;
+	top: 73%;
+	left: 0px;
+}
+
+.cou7des1 {
+	color: #000;
+	line-height: 1.2em;
+	text-align: left;
+	font-size: 1rem;
+	font-weight: 500;
+	top: 77%;
+	left: 0px;
+}
+
+.cou8 {
+	color: #000;
+	text-align: left;
+	font-size: 1.2rem;
+	top: 81%;
+	left: 0px;
+}
+
+.cou8des1 {
+	color: #000;
+	line-height: 1.2em;
+	text-align: left;
+	font-size: 1rem;
+	font-weight: 500;
+	top: 85%;
+	left: 0px;
+}

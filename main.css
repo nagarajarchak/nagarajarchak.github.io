@@ -7,7 +7,13 @@ html, body {
 	height: 100%;
 }
 
-/*   PAGE I   */
+.typed-cursor {
+	opacity: 0;
+}
+
+/******************************************
+			      PAGE I  
+*******************************************/
 
 .header1 {
 	background-color: #212333;
@@ -32,9 +38,8 @@ html, body {
 
 .col-sm-9 {
 	text-align: left;
-	left: 2.5%;
+	left: 1.5%;
 }
-
 
 .typer1 {
 	top: 42%;
@@ -42,6 +47,11 @@ html, body {
 
 .typer2 {
 	top: 46%;
+}
+
+.typer3 {
+	height: 6%;
+	top: 87%;
 }
 
 .intrigued {
@@ -64,49 +74,21 @@ html, body {
 	font-weight: 800;
 }
 
-/*   PAGE II   */
+/******************************************
+			     PAGE II  
+*******************************************/
 
 .header2 {
 	background-color: #f0f0f0;
-	height: 60%;
+	height: 80%;
 	width: 100%;
 	position: relative;
 }
 
-.aboutrow1 {
-	top: 0%;
-	width: 100%;
-	height: 25%;
-	color: #fff;
-	position: relative;
-	text-align: center;
-	font-family: 'Montserrat', sans-serif;
-	font-size: 1.1em;
-	font-weight: 800;
-}
-
-.aboutrowm {
-	top: 0%;
-	width: 100%;
-	height: 50%;
-	color: #fff;
-	position: relative;
-	text-align: center;
-	font-family: 'Montserrat', sans-serif;
-	font-size: 1.1em;
-	font-weight: 800;
-}
-
-.aboutrow2 {
-	top: 0%;
-	width: 100%;
-	height: 25%;
-	color: #fff;
-	position: relative;
-	text-align: center;
-	font-family: 'Montserrat', sans-serif;
-	font-size: 1.1em;
-	font-weight: 800;
+.me {
+	height: 35%;
+	top: 10%;
+	left: 0;
 }
 
 .rounded-circle {
@@ -114,81 +96,36 @@ html, body {
 	width: auto;
 }
 
-.aboutme {
+.myname {
 	left: 0;
-	height: 100%;
+	top: 48%;
+	width: 100%;
+	color: #fff;
 	color: #000;
-	font-size: 1.0em;
-	line-height: 1.3em;
-	text-align: left;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.6em;
+	font-weight: 900;
 }
 
-#kann {
-	font-size: 1.25em;
-	font-weight: 500;
-}
-
-#whoami {
-	font-size: 0.9em;
+.aboutme {
+	top: 67%;
+	width: 100%;
+	color: #fff;
+	color: #000;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.05em;
 	font-weight: 300;
 }
 
-.aaa, .bbb, .ccc {
-	background-color: transparent;
-}
+/******************************************
+			    PAGE III  
+*******************************************/
 
-.aaa #Res {
-	color: #fff;
-	transition: 0.5s;
-	text-decoration: none;
-	background-color: transparent;
+.header3 {
+	background-color: #303030;
+	height: 100%;
+	width: 100%;
 	position: relative;
-	transition: 0.5s;
-}
-
-.aaa:hover {
-	background-color: #fff;
-	color: #000;
-	transition: 0.5s;
-}
-
-.aaa #Res:hover {
-	color: #000;
-}
-
-.bbb #Res {
-	color: #fff;
-	transition: 0.5s;
-	text-decoration: none;
-	background-color: transparent;
-	position: relative;
-	transition: 0.5s;
-}
-
-.bbb:hover {
-	background-color: #fff;
-	color: #000000;
-	transition: 0.5s;
-}
-
-.bbb #Res:hover {
-	color: #000;
-}
-
-.ccc #Res {
-	color: #fff;
-	text-decoration: none;
-	background-color: transparent;
-	position: relative;
-	transition: 0.5s;
-}
-
-.ccc:hover {
-	background-color: #fff;
-	color: #000;
-	transition: 0.5s;
-}
-
-.ccc #Res:hover {
-	color: #000;
 }

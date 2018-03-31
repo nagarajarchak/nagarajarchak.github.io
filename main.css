@@ -129,3 +129,150 @@ html, body {
 	width: 100%;
 	position: relative;
 }
+
+.projhead {
+	font-size: 3rem;
+	top: 3%;
+	left: 0;
+}
+
+#git1 {
+	color: white;
+	text-decoration: none;
+}
+#git1:hover {
+	color: #707070;
+	text-decoration: none;
+}
+
+/*   PROJECT I   */
+
+.proj1 {
+	text-align: left;
+	font-size: 1.2rem;
+	top: 15%;
+	left: 0px;
+}
+
+.p1 {
+	width: 100%;
+	border-radius: 0;
+	height: 8px;
+	background-color: white;
+}
+
+.b1 {
+	background-color: #707070;
+}
+
+.proj1prog {
+	top: 10px; 
+}
+
+.proj1des {
+	line-height: 1.2em;
+	text-align: left;
+	font-size: 0.9rem;
+	font-weight: 100;
+	top: 23%;
+	left: 0px;
+}
+
+/*   PROJECT II   */
+
+.proj2 {
+	text-align: left;
+	font-size: 1.2rem;
+	top: 35%;
+	left: 0px;
+}
+
+.p2 {
+	width: 100%;
+	border-radius: 0;
+	height: 8px;
+	background-color: white;
+}
+
+.b2 {
+	background-color: #707070;
+}
+
+.proj2prog {
+	top: 10px; 
+}
+
+.proj2des {
+	line-height: 1.2em;
+	text-align: left;
+	font-size: 0.9rem;
+	font-weight: 100;
+	top: 39%;
+	left: 0px;
+}
+
+/*   PROJECT III   */
+
+.proj3 {
+	text-align: left;
+	font-size: 1.2rem;
+	top: 58%;
+	left: 0px;
+}
+
+.p3 {
+	width: 100%;
+	border-radius: 0;
+	height: 8px;
+	background-color: white;
+}
+
+.b3 {
+	background-color: #707070;
+}
+
+.proj3prog {
+	top: 10px; 
+}
+
+.proj3des {
+	line-height: 1.2em;
+	text-align: left;
+	font-size: 0.9rem;
+	font-weight: 100;
+	top: 62%;
+	left: 0px;
+}
+
+/*   PROJECT IV   */
+
+.proj4 {
+	text-align: left;
+	font-size: 1.2rem;
+	top: 74%;
+	left: 0px;
+}
+
+.p4 {
+	width: 100%;
+	border-radius: 0;
+	height: 8px;
+	background-color: white;
+}
+
+.b4 {
+	background-color: #707070;
+}
+
+.proj4prog {
+	top: 10px; 
+}
+
+.proj4des {
+	line-height: 1.2em;
+	text-align: left;
+	font-size: 0.9rem;
+	font-weight: 100;
+	top: 78%;
+	left: 0px;
+}

@@ -457,3 +457,210 @@ html, body {
 	top: 85%;
 	left: 0px;
 }
+
+/******************************************
+			      PAGE V  
+*******************************************/
+
+.header5 {
+	background-color: #303030;
+	height: 80%;
+	width: 100%;
+	position: relative;
+}
+
+.musichead {
+	font-size: 3rem;
+	top: 5%;
+	left: 0;
+}
+
+#musicperf {
+	color: #fff;
+	text-decoration: none;
+}
+#musicperf:hover {
+	color: #707070;
+	text-decoration: none;
+}
+.musicheadt {
+	font-weight: 800;
+}
+
+.musicheadt1 {
+	font-weight: 100;
+}
+
+.video {
+	top: 5px;
+	font-weight: 100;
+	font-size: 0.9rem;
+}
+
+.music1 {
+	text-align: left;
+	font-size: 1.2rem;
+	top: 20%;
+	left: 0px;
+}
+
+.music2 {
+	text-align: left;
+	font-size: 1.3rem;
+	top: 40%;
+	left: 0px;
+}
+
+.music21 {
+	text-align: left;
+	font-weight: 500;
+	font-size: 0.8rem;
+	top: 44%;
+	left: 0px;
+}         
+
+
+.music3 {
+	text-align: left;
+	font-size: 1.3rem;
+	top: 50%;
+	left: 0px;
+}
+
+.music31 {
+	text-align: left;
+	font-weight: 500;
+	font-size: 0.8rem;
+	top: 54%;
+	left: 0px;
+}
+
+.music4 {
+	text-align: left;
+	font-size: 1.3rem;
+	top: 60%;
+	left: 0px;
+}
+
+.music41 {
+	text-align: left;
+	font-weight: 500;
+	font-size: 0.8rem;
+	top: 64%;
+	left: 0px;
+}
+
+.music5 {
+	text-align: left;
+	font-size: 1.3rem;
+	top: 70%;
+	left: 0px;
+}
+
+.music51 {
+	text-align: left;
+	font-weight: 500;
+	font-size: 0.8rem;
+	top: 74%;
+	left: 0px;
+}
+.music6 {
+	text-align: left;
+	font-size: 1.3rem;
+	top: 80%;
+	left: 0px;
+}
+
+.music61 {
+	text-align: left;
+	font-weight: 500;
+	font-size: 0.8rem;
+	top: 84%;
+	left: 0px;
+}
+
+/******************************************
+			     PAGE VI  
+*******************************************/
+
+.header6 {
+	background-color: #fff;
+	height: 50%;
+	width: 100%;
+	position: relative;
+}
+
+.contacthead {
+	color: #000;
+	font-size: 3rem;
+	top: 5%;
+	left: 0;
+}
+
+.cont1 {
+	color: #000;
+	text-align: left;
+	font-size: 1.2rem;
+	top: 22%;
+	left: 0px;
+}
+
+.contheadt {
+	color: #000;
+	font-weight: 800;
+}
+
+.cont2 {
+	color: #000;
+	text-align: left;
+	font-size: 1.2rem;
+	top: 38%;
+	left: 0px;
+}
+
+.resume {
+	color: #000;
+	font-weight: 800;
+}
+
+#res {
+	text-decoration: underline;
+	color: #000;
+}
+#res:hover {
+	color: #707070;
+	text-decoration: underline;
+}
+
+.cont3 {
+	color: #000;
+	text-align: left;
+	font-weight: 800;
+	font-size: 1.2rem;
+	top: 65%;
+	left: 0px;
+}
+
+.social1 {
+	top: 45px;
+}
+
+.social2 {
+	top: 30px;
+}
+
+.social3 {
+	top: 45px;
+}
+
+#linkedin {
+	height: 50px;
+}
+
+#github {
+	height: 85px;
+}
+
+#fb {
+	height: 55px;
+}

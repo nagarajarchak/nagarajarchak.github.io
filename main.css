@@ -620,12 +620,14 @@ html, body {
 
 .resume {
 	color: #000;
-	font-weight: 500;
+	font-weight: 300;
+	font-size: 1.05rem;
 }
 
 .email {
 	color: #000;
-	font-weight: 500;
+	font-weight: 300;
+	font-size: 1.05rem;
 }
 
 #res {

@@ -620,7 +620,12 @@ html, body {
 
 .resume {
 	color: #000;
-	font-weight: 800;
+	font-weight: 500;
+}
+
+.email {
+	color: #000;
+	font-weight: 500;
 }
 
 #res {
@@ -642,15 +647,16 @@ html, body {
 }
 
 .social1 {
-	top: 45px;
+	top: 50px;
 }
 
 .social2 {
-	top: 30px;
+	top: 53px;
 }
 
 .social3 {
-	top: 45px;
+	left: 5px;
+	top: 62px;
 }
 
 #linkedin {
@@ -658,9 +664,9 @@ html, body {
 }
 
 #github {
-	height: 85px;
+	height: 50px;
 }
 
 #fb {
-	height: 55px;
+	height: 30px;
 }

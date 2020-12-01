@@ -12,8 +12,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com"> 
     <link href="https://fonts.googleapis.com/css2?family=Castoro&display=swap" rel="stylesheet">
     
-    <script src="node_modules/swup/dist/swup.min.js"></script>
-    <script defer src='script.js'></script>
+    <!-- <script src="node_modules/swup/dist/swup.min.js"></script>
+    <script defer src='script.js'></script> -->
 
     <title>Nagaraj | Portfolio</title>
   </head>
@@ -22,7 +22,7 @@
     <div class="container" id="main-container">
       <div class="row align-items-center" id="main-row">
         
-        <div class="col d-flex justify-content-center side-section">
+        <div class="col d-flex justify-content-center">
           
             <div class="container" id="left-pic-intro">
               
@@ -39,14 +39,14 @@
               </div>
              
               <div class="row align-items-center">
-                <div class="col d-flex justify-content-center" id="nav-bar">
+                <div class="col d-flex justify-content-center">
                   
                   <div class="container">
                     <div class="row align-items-center" id="nav-bar-elements">
-                      <div class="col d-flex justify-content-center"><a href="/index.html"></a></div>
                       <div class="col d-flex justify-content-center"><a href="/about.html"></a></div>
                       <div class="col d-flex justify-content-center"><a href="/projects.html"></a></div>
-                      <div class="col d-flex justify-content-center"><a href="/index.html"></a></div>
+                      <div class="col d-flex justify-content-center"><a href="/index.html">home</a></div>
+                      <div class="col d-flex justify-content-center"><a href="/music.html">music</a></div>
                       <div class="col d-flex justify-content-center"><a href="/index.html"></a></div>
                       <div class="col d-flex justify-content-center"><a href="/contact.html"></a></div>
                     </div>
@@ -59,13 +59,30 @@
         </div>
         
         <div class="col d-flex align-items-center landing-page-content">
-          <div class="content-section-home transition-fade" id="swup">
             I like to write code to make the world a better place.
-          </div>
         </div>
       
       </div>
     </div>
 
+    <script src="js/p5.min.js"></script>
+    <script src="js/vanta.trunk.min.js"></script>
+    <script>
+    VANTA.TRUNK({
+      el: "#main-container",
+      mouseControls: true,
+      touchControls: true,
+      gyroControls: false,
+      minHeight: 200.00,
+      minWidth: 200.00,
+      scale: 1.00,
+      scaleMobile: 1.00,
+      color: 0x4185d2,
+      backgroundColor: 0xffffff,
+      spacing: 0.50,
+      chaos: 2.00
+    })
+    </script>
+    
   </body>
 </html>

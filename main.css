@@ -1,11 +1,21 @@
 body {
-    background-color:  #fffcf2;
+    font-family: 'Castoro', serif;
 }
 
 a {
     color: black;
+    transition: color 0.2s;
 }
 
+a:hover {
+    text-decoration: none;
+    color: #4185d2;
+    transition: color 0.2s;
+}
+
+#main-container {
+    width: 100vw;
+}
 #main-container, #main-row {
     height: 100vh;
     font-family: 'Castoro', serif;
@@ -27,7 +37,7 @@ a {
 
 .landing-page-content {
     height: 75vh;
-    border-left: 2px solid #dbdbdb;
+    /* border-left: 2px solid #000000; */
     padding-left: 50px;
     font-size: 2.8vw;
 }
@@ -59,6 +69,65 @@ html.is-animating .transition-fade {
 
 .content-section-about {
     font-size: 2.5vh;
+}
+
+/**************************************
+                PROJECTS
+**************************************/
+
+#project-header-row {
+    height: 20vh;
+}
+
+#project-title {
+    padding: 0 0;
+    font-size: 5vh;
+    font-weight: 900;
+    border-bottom: 5px solid #4185d2;
+}
+
+.nav-menu {
+    padding-left: 35px;
+    font-size: 2vh;
+}
+
+#projects-container, #project-row {
+    height: 80vh;
+    font-family: 'Castoro', serif;
+    font-weight: bold;
+}
+
+/**************************************
+                MUSIC
+**************************************/
+
+#music-heading {
+    height: 10vh;
+}
+
+#music-titles {
+    font-size: 2vw;
+    border-left: 5px solid #f59f66;
+}
+
+#listening-to .row {
+    height: 10vh;
+}
+
+#performance-list .row {
+    height: 6vh;
+}
+
+#perform-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5vh;
+    font-weight: 800;
+}
+
+#perform-desc {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.7vh;
+    font-weight: 400;
 }
 
 /**************************************

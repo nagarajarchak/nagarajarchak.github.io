@@ -37,7 +37,6 @@ a:hover {
 
 .landing-page-content {
     height: 75vh;
-    /* border-left: 2px solid #000000; */
     padding-left: 50px;
     font-size: 2.8vw;
 }
@@ -71,12 +70,61 @@ html.is-animating .transition-fade {
     font-size: 2.5vh;
 }
 
+#particles-js {
+    color: #000;
+}
+
+.typed-cursor {
+    visibility: hidden;
+}
+
+#social-desc {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.7vh;
+    font-weight: 400;
+}
+
+#icon-heading {
+    padding-bottom: 20px;
+}
+
+.fa {
+    color: rgb(182, 182, 182);
+    transition: color 0.2s;
+}
+
+.fa-envelope:hover {
+    color: #1c5891;
+    transition: color 0.2s;
+}
+
+.fa-linkedin-square:hover {
+    color: #0e76a8;
+    transition: color 0.2s;
+}
+
+.fa-facebook-square:hover {
+    color: #3b5998;
+    transition: color 0.2s;
+}
+
+.fa-instagram:hover {
+    color: #E1306C;
+    transition: color 0.2s;
+}
+
+.fa-github:hover {
+    color: #000;
+    transition: color 0.2s;
+}
+
+
 /**************************************
                 PROJECTS
 **************************************/
 
 #project-header-row {
-    height: 20vh;
+    height: 15vh;
 }
 
 #project-title {
@@ -97,6 +145,45 @@ html.is-animating .transition-fade {
     font-weight: bold;
 }
 
+#project-heading {
+    padding-bottom: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5vh;
+    font-weight: 800;
+}
+
+#project-desc {
+    padding-bottom: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.7vh;
+    font-weight: 400;
+}
+
+#github-link {
+    padding-bottom: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5vh;
+    font-weight: 500;
+}
+
+/**************************************
+              TECH STACK
+**************************************/
+
+#tech-list-item {
+    padding-bottom: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5vh;
+    font-weight: 800;
+}
+
+#tech-list-desc {
+    padding-bottom: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.7vh;
+    font-weight: 500;
+}
+
 /**************************************
                 MUSIC
 **************************************/
@@ -106,7 +193,7 @@ html.is-animating .transition-fade {
 }
 
 #music-titles {
-    font-size: 2vw;
+    font-size: 3vh;
     border-left: 5px solid #f59f66;
 }
 

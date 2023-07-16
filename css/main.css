@@ -29,7 +29,12 @@ ul {
 
 a {
     text-decoration: none;
-    color: #333;
+    color: var(--font-color);
+}
+
+a:hover 
+{
+    color: #ffd633;
 }
 
 p {
@@ -57,19 +62,21 @@ p {
     background-color: var(--bg-color);
 }
 
-.lp-picture img {
+.lp-content img {
     width: 30%;
     height: auto;
 }
 
 .lp-content {
-    font-size: 2.5em;
+    font-size: 2.8em;
+    font-weight: 600;
 }
 
 .landing-page .main-flex .flex {
     padding: 15px 0;
     color: var(--font-color);
 }
+
 
 /* CREDS HELPER */
 
@@ -102,20 +109,51 @@ p {
 /* EDUCATION PAGE */
 
 .education-page {
-    height: 35%;
+    height: 270px;
     background-color: var(--bg-color);
 }
 
 /* EXPERIENCE PAGE */
 
 .experience-page {
-    height: 30%;
+    height: 230px;
     background-color: var(--bg-color);
 }
 
-/* SKILSS PAGE */
+/* SKILLS PAGE */
 
 .skills-page {
-    height: 50%;
+    height: 360px;
     background-color: var(--bg-color);
+}
+
+/* RECOGNITION PAGE */
+
+.recognition-page {
+    height: 400px;
+    background-color: var(--bg-color);
+}
+
+/* MUSIC PAGE */
+
+.music-page {
+    height: 200px;
+    background-color: var(--bg-color);
+}
+
+.music-page .container .exp-content a {
+    border-bottom: 2px var(--font-color) solid;
+}
+
+.music-page .container .exp-content a:hover {
+    border-bottom: 2px #ffd633 solid;
+}
+
+/* FOOTER PAGE */
+
+.footer-page {
+    height: 350px;
+    padding-top: 100px;
+    background-color: var(--bg-color);
+    align-items: center;
 }

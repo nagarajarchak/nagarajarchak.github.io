@@ -70,3 +70,52 @@ p {
     padding: 15px 0;
     color: var(--font-color);
 }
+
+/* CREDS HELPER */
+
+.exp-flex {
+    display: flex;
+    height: auto;
+}
+
+.exp-content-title {
+    font-size: 2.5em;
+    font-weight: 600;
+    color: var(--font-color);
+    height: auto;
+    padding-bottom: 30px;
+}
+
+.exp-content-date {
+    color: var(--font-color);
+    height: auto;
+    padding: 10px 20px;
+    width: 10%;
+}
+
+.exp-content {
+    color: var(--font-color);
+    height: auto;
+    padding: 10px 20px;
+}
+
+/* EDUCATION PAGE */
+
+.education-page {
+    height: 35%;
+    background-color: var(--bg-color);
+}
+
+/* EXPERIENCE PAGE */
+
+.experience-page {
+    height: 30%;
+    background-color: var(--bg-color);
+}
+
+/* SKILSS PAGE */
+
+.skills-page {
+    height: 50%;
+    background-color: var(--bg-color);
+}

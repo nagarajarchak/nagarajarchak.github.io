@@ -34,7 +34,7 @@ a {
 
 a:hover 
 {
-    color: #ffd633;
+    color: #7ce0ff;
 }
 
 p {
@@ -146,7 +146,7 @@ p {
 }
 
 .music-page .container .exp-content a:hover {
-    border-bottom: 2px #ffd633 solid;
+    border-bottom: 2px #7ce0ff solid;
 }
 
 /* FOOTER PAGE */

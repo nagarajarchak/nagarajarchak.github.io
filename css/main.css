@@ -1,13 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;400;600;800&display=swap');
 
-/* justify-content: center; 
-    align-items: center; */
-
 /* GENERIC STYLING */
 
 :root {
     --bg-color: #1a2034;
     --font-color: #fffae6;
+    --hover-color: #7ce0ff;
 }
 
 * {
@@ -34,7 +32,7 @@ a {
 
 a:hover 
 {
-    color: #7ce0ff;
+    color: var(--hover-color);
 }
 
 p {
@@ -146,7 +144,7 @@ p {
 }
 
 .music-page .container .exp-content a:hover {
-    border-bottom: 2px #7ce0ff solid;
+    border-bottom: 2px var(--hover-color) solid;
 }
 
 /* FOOTER PAGE */

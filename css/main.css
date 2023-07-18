@@ -147,3 +147,24 @@ a:hover
     background-color: var(--bg-color);
     align-items: center;
 }
+
+/* RESPONSIVE - MOBILE */
+
+@media (max-width: 500px) {
+    
+    .lp-content img {
+        width: 50%;
+        height: auto;
+    }
+
+    .lp-content {
+        font-size: 2.5em;
+        font-weight: 600;
+    }
+    
+    .landing-page .main-flex .flex {
+        padding: 15px 0;
+        color: var(--font-color);
+    }
+
+}

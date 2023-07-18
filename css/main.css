@@ -124,6 +124,21 @@ a:hover
     background-color: var(--bg-color);
 }
 
+/* PROFILE PAGE */
+
+.profile-page {
+    height: 180px;
+    background-color: var(--bg-color);
+}
+
+.profile-page .container .exp-content a {
+    border-bottom: 2px var(--font-color) solid;
+}
+
+.profile-page .container .exp-content a:hover {
+    border-bottom: 2px var(--hover-color) solid;
+}
+
 /* MUSIC PAGE */
 
 .music-page {
@@ -191,6 +206,12 @@ a:hover
         height: 610px;
         background-color: var(--bg-color);
     }
+
+    .profile-page {
+        height: 240px;
+        background-color: var(--bg-color);
+    }
+    
     
     .music-page {
         height: 270px;

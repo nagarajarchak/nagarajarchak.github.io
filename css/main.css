@@ -152,6 +152,11 @@ a:hover
 
 @media (max-width: 500px) {
     
+    .landing-page {
+        height: 100%;
+        background-color: var(--bg-color);
+    }
+
     .lp-content img {
         width: 50%;
         height: auto;
@@ -165,6 +170,11 @@ a:hover
     .landing-page .main-flex .flex {
         padding: 15px 0;
         color: var(--font-color);
+    }
+
+    .education-page {
+        height: 450px;
+        background-color: var(--bg-color);
     }
 
 }

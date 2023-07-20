@@ -70,12 +70,12 @@ a:hover
 
 /* CREDS HELPER */
 
-.exp-flex {
+.content-flex {
     display: flex;
     height: auto;
 }
 
-.exp-content-title {
+.content-title {
     font-size: 2.5em;
     font-weight: 600;
     color: var(--font-color);
@@ -83,14 +83,14 @@ a:hover
     padding-bottom: 30px;
 }
 
-.exp-content-date {
+.content-date {
     color: var(--font-color);
     height: auto;
     padding: 10px 20px;
     width: 10%;
 }
 
-.exp-content {
+.content {
     color: var(--font-color);
     height: auto;
     padding: 10px 20px;
@@ -131,11 +131,11 @@ a:hover
     background-color: var(--bg-color);
 }
 
-.profile-page .container .exp-content a {
+.profile-page .container .content a {
     border-bottom: 2px var(--font-color) solid;
 }
 
-.profile-page .container .exp-content a:hover {
+.profile-page .container .content a:hover {
     border-bottom: 2px var(--hover-color) solid;
 }
 
@@ -146,11 +146,11 @@ a:hover
     background-color: var(--bg-color);
 }
 
-.music-page .container .exp-content a {
+.music-page .container .content a {
     border-bottom: 2px var(--font-color) solid;
 }
 
-.music-page .container .exp-content a:hover {
+.music-page .container .content a:hover {
     border-bottom: 2px var(--hover-color) solid;
 }
 
@@ -211,7 +211,6 @@ a:hover
         height: 240px;
         background-color: var(--bg-color);
     }
-    
     
     .music-page {
         height: 270px;

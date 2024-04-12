@@ -120,7 +120,7 @@ a:hover
 /* RECOGNITION PAGE */
 
 .recognition-page {
-    height: 400px;
+    height: 500px;
     background-color: var(--bg-color);
 }
 
@@ -203,7 +203,7 @@ a:hover
     }
     
     .recognition-page {
-        height: 610px;
+        height: 840px;
         background-color: var(--bg-color);
     }
 

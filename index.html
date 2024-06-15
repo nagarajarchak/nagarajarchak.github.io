@@ -41,7 +41,6 @@
     <div class="grid-item grid-item-mode" id="mode">
       <a onclick="toggleMode()">
         <i class="fa-solid fa-moon"></i>
-        <!-- <i class="fa-solid"></i> -->
       </a>
     </div>
     <div class="grid-item grid-item-git" id="git">
@@ -56,7 +55,7 @@
       </div>
       <div class="tile-content">
         
-        <i>Here are a few awards I've received during my stint in the industry and my master program.</i>
+        <i>Here are a few awards I've received during my stint in the industry and my masters program.</i>
         <br><br>
 
         <div class="tile-subtitle"><b>Monash University</b></div>
@@ -132,18 +131,8 @@
       </div>
       <div class="tile-content">
         I am an avid listener of hindustani classical music and I am currently seeking training in tabla and bansuri. 
-          I also play the drums. You can find some of my music on my <u>youtube channel</u> and my <u>instagram</u>.
+          I also play the drums. You can find some of my music on my <a class="sc" href="https://www.youtube.com/@nagarajarchak1579" target="_blank">youtube channel</a> and my <a href="https://www.instagram.com/nagarajarchak/" target="_blank">instagram</a>.
       </div>
-    </div>
-    <div class="grid-item grid-item-instagram" id="instagram">
-      <a href="https://www.instagram.com/nagarajarchak/" target="_blank">
-        <i class="fa-brands fa-instagram"></i>
-      </a>
-    </div>
-    <div class="grid-item grid-item-youtube" id="youtube">
-      <a href="https://www.youtube.com/@nagarajarchak1579" target="_blank">
-        <i class="fa-brands fa-youtube"></i>
-      </a>
     </div>
   </div>
 
@@ -159,6 +148,7 @@
       var profile = document.querySelector('.grid-item-profile')
       var skills = document.querySelector('.grid-item-skills')
       var cv = document.querySelector('.cv')
+      var sc = document.querySelector('.sc')
       var resume = document.querySelector('.resume')
       var github = document.querySelector('.grid-item-git')
       var linkedin = document.querySelector('.grid-item-linkedin')
@@ -167,6 +157,7 @@
       var instagram = document.querySelector('.grid-item-instagram')
       var instagramIcon = document.querySelector('.fa-instagram')
       var mode = document.querySelector('.fa-solid')
+      
       
       body.classList.toggle("dark-mode");
       about.classList.toggle("grid-item-about-dark");
@@ -184,6 +175,7 @@
       youtubeIcon.classList.toggle("fa-youtube-dark");
       instagram.classList.toggle("grid-item-instagram-dark");
       instagramIcon.classList.toggle("fa-instagram-dark");
+      sc.classList.toggle("a-dark-social");
 
       mode.classList.toggle("fa-moon");
       mode.classList.toggle("fa-sun");

@@ -75,6 +75,16 @@ a:hover {
     transition: var(--link-transition-time);
 }
 
+.a-dark-social:link, .a-dark-social:visited, .a-dark-social:active {
+    color: var(--color-white);
+    transition: var(--mode-transition-time);
+}
+
+.a-dark-social:hover {
+    color: var(--hover-dark-color);
+    transition: var(--link-transition-time);
+}
+
 /* DARK MODE */
 
 .dark-mode {
@@ -168,7 +178,7 @@ a:hover {
 .grid-item-experience {
     margin-top: var(--margin-top);
     margin-left: var(--margin-left);
-    height: 320px;
+    height: 340px;
     width: 490px;
     background-color: var(--tile-color-blue);
     transition: var(--mode-transition-time);
@@ -209,7 +219,7 @@ a:hover {
 .grid-item-skills {
     margin-top: var(--margin-top);
     margin-left: var(--margin-left);
-    height: 320px;
+    height: 340px;
     width: 400px;
     transition: var(--mode-transition-time);
     background-color: var(--tile-color-gray);
@@ -230,7 +240,7 @@ a:hover {
 .grid-item-profile {
     margin-top: var(--margin-top);
     margin-left: var(--margin-left);
-    height: 195px;
+    height: 175px;
     width: 400px;
     background-color: var(--color-white);
     transition: var(--mode-transition-time);
@@ -253,8 +263,8 @@ a:hover {
 .grid-item-music {
     margin-top: var(--margin-top);
     margin-left: var(--margin-left);
-    height: 195px;
-    width: 383px;
+    height: 175px;
+    width: 490px;
     transition: var(--mode-transition-time);
     background-color: var(--tile-color-orange);
     box-shadow: 0px 0px var(--shadow-strength) var(--tile-color-orange);
@@ -298,90 +308,6 @@ a:hover {
 #mode:hover {
     transition: var(--link-transition-time);
     background-color: var(--tile-dark-color-orange);
-}
-
-/* INSTAGRAM */
-
-.grid-item-instagram {
-    margin-top: var(--margin-top);
-    margin-left: var(--margin-left);
-    height: 87px;
-    width: 87px;
-    background-color: var(--color-white);
-    transition: var(--link-transition-time);
-    border: 3px solid var(--icon-color-gray);
-    text-align: center;
-    padding-top: 22px;
-}
-
-.grid-item-instagram-dark {
-    background-color: var(--dark-mode-bg-color);
-    border: 3px solid var(--tile-dark-color-gray);
-    transition: var(--mode-transition-time);
-}
-
-.fa-instagram {
-    color: var(--icon-color-gray);
-    transition: var(--link-transition-time);
-    font-size: 2.5em;
-}
-
-.fa-instagram-dark {
-    color: var(--tile-dark-color-gray);
-    transition: var(--link-transition-time);
-    font-size: 2.5em;
-}
-
-#instagram:hover {
-    transition: var(--link-transition-time);
-    border: 3px solid #cd486b;
-}
-
-.fa-instagram:hover {
-    transition: var(--link-transition-time);
-    color: #cd486b;
-}
-
-/* YOUTUBE */
-
-.grid-item-youtube {
-    margin-top: var(--margin-top);
-    margin-left: var(--margin-left);
-    height: 87px;
-    width: 87px;
-    background-color: var(--color-white);
-    transition: var(--link-transition-time);
-    border: 3px solid var(--icon-color-gray);
-    text-align: center;
-    padding-top: 22px;
-}
-
-.grid-item-youtube-dark {
-    background-color: var(--dark-mode-bg-color);
-    border: 3px solid var(--tile-dark-color-gray);
-    transition: var(--mode-transition-time);
-}
-
-.fa-youtube {
-    color: var(--icon-color-gray);
-    transition: var(--link-transition-time);
-    font-size: 2.5em;
-}
-
-.fa-youtube-dark {
-    color: var(--tile-dark-color-gray);
-    transition: var(--link-transition-time);
-    font-size: 2.5em;
-}
-
-#youtube:hover {
-    transition: var(--link-transition-time);
-    border: 3px solid #f00;
-}
-
-.fa-youtube:hover {
-    transition: var(--link-transition-time);
-    color: #f00;
 }
 
 /* GITHUB */
@@ -439,5 +365,5 @@ a:hover {
 
 #linkedin:hover {
     transition: var(--link-transition-time);
-    background-color: #0077B5;
+    background-color: var(--tile-dark-color-blue);
 }

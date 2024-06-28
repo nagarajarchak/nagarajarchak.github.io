@@ -18,7 +18,6 @@
 
     --color-white: #fff;
     --color-black: #000;
-
     --icon-color-gray: #a7a7a7;
     --hover-color: #3e7eff;
 
@@ -26,14 +25,14 @@
     
     /* DARK MORE ATTRIBUTES */
 
-    --mode-transition-time: 0.5s;
     --dark-mode-bg-color: #1b3349;
-
     --tile-dark-color-blue: #7fc1ffb4;
     --tile-dark-color-orange: #ff963f;
     --tile-dark-color-gray: #426d95;
-
     --hover-dark-color: #8eb2fb;
+    --hover-sc-dark-color: #d45100;
+    
+    --mode-transition-time: 0.5s;
 }
 
 body {
@@ -81,7 +80,7 @@ a:hover {
 }
 
 .a-dark-social:hover {
-    color: var(--hover-dark-color);
+    color: var(--hover-sc-dark-color);
     transition: var(--link-transition-time);
 }
 

@@ -39,7 +39,7 @@
       </div>
     </div>
     <div class="grid-item grid-item-mode" id="mode">
-      <a onclick="toggleMode()">
+      <a onclick=toggleMode()>
         <i class="fa-solid fa-moon"></i>
       </a>
     </div>
@@ -131,13 +131,17 @@
       </div>
       <div class="tile-content">
         I am an avid listener of hindustani classical music and I am currently seeking training in tabla and bansuri. 
-          I also play the drums. You can find some of my music on my <a class="sc" href="https://www.youtube.com/@nagarajarchak1579" target="_blank">youtube channel</a> and my <a href="https://www.instagram.com/nagarajarchak/" target="_blank">instagram</a>.
+          I also play the drums. You can find some of my music on my <a class="scy" href="https://www.youtube.com/@nagarajarchak1579" target="_blank">youtube channel</a> and my <a class="sci" href="https://www.instagram.com/nagarajarchak/" target="_blank">instagram</a>.
       </div>
     </div>
   </div>
 
   <script>
     function toggleMode() {
+
+      var mode = document.querySelector('.fa-solid')
+      mode.classList.toggle("fa-moon");
+      mode.classList.toggle("fa-sun");
     
       var body = document.body;
       var about = document.querySelector('.grid-item-about')
@@ -148,17 +152,12 @@
       var profile = document.querySelector('.grid-item-profile')
       var skills = document.querySelector('.grid-item-skills')
       var cv = document.querySelector('.cv')
-      var sc = document.querySelector('.sc')
+      var scy = document.querySelector('.scy')
+      var sci = document.querySelector('.sci')
       var resume = document.querySelector('.resume')
       var github = document.querySelector('.grid-item-git')
       var linkedin = document.querySelector('.grid-item-linkedin')
-      var youtube = document.querySelector('.grid-item-youtube')
-      var youtubeIcon = document.querySelector('.fa-youtube')
-      var instagram = document.querySelector('.grid-item-instagram')
-      var instagramIcon = document.querySelector('.fa-instagram')
-      var mode = document.querySelector('.fa-solid')
-      
-      
+
       body.classList.toggle("dark-mode");
       about.classList.toggle("grid-item-about-dark");
       experience.classList.toggle("grid-item-experience-dark");
@@ -171,14 +170,8 @@
       resume.classList.toggle("a-dark");
       github.classList.toggle("grid-item-git-dark");
       linkedin.classList.toggle("grid-item-linkedin-dark");
-      youtube.classList.toggle("grid-item-youtube-dark");
-      youtubeIcon.classList.toggle("fa-youtube-dark");
-      instagram.classList.toggle("grid-item-instagram-dark");
-      instagramIcon.classList.toggle("fa-instagram-dark");
-      sc.classList.toggle("a-dark-social");
-
-      mode.classList.toggle("fa-moon");
-      mode.classList.toggle("fa-sun");
+      scy.classList.toggle("a-dark-social");
+      sci.classList.toggle("a-dark-social");
     
     }
   </script>

@@ -84,6 +84,24 @@ a:hover {
     transition: var(--link-transition-time);
 }
 
+#scyt:link, #scyt:visited, #scyt:active {
+    transition: var(--mode-transition-time);
+}
+
+#scyt:hover {
+    color: var(--hover-sc-dark-color);
+    transition: var(--link-transition-time);
+}
+
+#scin:link, #scin:visited, #scin:active {
+    transition: var(--mode-transition-time);
+}
+
+#scin:hover {
+    color: var(--hover-sc-dark-color);
+    transition: var(--link-transition-time);
+}
+
 /* DARK MODE */
 
 .dark-mode {

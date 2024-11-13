@@ -306,7 +306,31 @@ body {
     color: var(--tile-dark-color-orange);
 }
 
+/* MUSIC */
 
+.music-title {
+    padding-top: 50px;
+    padding-bottom: 10px;
+    font-size: 3.5em;
+    font-weight: 500;
+}
+
+.music-desc {
+    font-size: 1.4em;
+}
+
+.hcm {
+    color: var(--tile-dark-color-orange);
+}
+
+/* FOOTER */
+
+.footer-title {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    font-size: 3.5em;
+    font-weight: 500;
+}
 
 
 
@@ -389,12 +413,6 @@ a:hover {
     height: 200px;
     width: 200px;
 }
-
-/* .my-picture {
-    width: 100%;
-    border-radius: 15px;
-    box-shadow: 0px 0px var(--shadow-strength) var(--shadow-color);
-} */
 
 /* TILE CHARACTERISTICS */
 

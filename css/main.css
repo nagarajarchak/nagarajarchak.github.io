@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
     --margin-all: 30px;
@@ -37,7 +37,7 @@
 
 body {
     margin: var(--margin-all);
-    font-family: "Comfortaa", sans-serif;
+    font-family: "Jost", sans-serif;
     background-color: var(--color-white);
     color: var(--color-black);
     transition: var(--mode-transition-time);
@@ -59,9 +59,11 @@ body {
     border-radius: 75px;
 }
 
+/* ABOUT ME */
 
-
-
+.about-me-title {
+    
+}
 
 
 

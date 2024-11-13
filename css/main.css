@@ -288,6 +288,23 @@ body {
     color: var(--tile-dark-color-orange);
 }
 
+/* BLOG */
+
+.blog-title {
+    padding-top: 50px;
+    padding-bottom: 10px;
+    font-size: 3.5em;
+    font-weight: 500;
+}
+
+.blog-desc {
+    font-size: 1.4em;
+}
+
+.blog-item {
+    font-size: 1.5em;
+    color: var(--tile-dark-color-orange);
+}
 
 
 

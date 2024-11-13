@@ -249,6 +249,45 @@ body {
     font-size: 1.5em;
 }
 
+.ind-yr {
+    color: var(--tile-dark-color-orange);
+}
+
+/* TECH */
+
+.tech-title {
+    padding-top: 50px;
+    padding-bottom: 10px;
+    font-size: 3.5em;
+    font-weight: 500;
+}
+
+.tech-desc {
+    font-size: 1.5em;
+}
+
+.tech-item {
+    color: var(--tile-dark-color-orange);
+}
+
+/* PROJECTS */
+
+.projects-title {
+    padding-top: 50px;
+    padding-bottom: 10px;
+    font-size: 3.5em;
+    font-weight: 500;
+}
+
+.projects-desc {
+    font-size: 1.4em;
+}
+
+.project-item {
+    font-size: 1.5em;
+    color: var(--tile-dark-color-orange);
+}
+
 
 
 

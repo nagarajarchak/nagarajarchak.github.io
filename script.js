@@ -18,6 +18,8 @@ function toggleMode() {
     var resume = document.querySelector('.resume')
     var github = document.querySelector('.grid-item-git')
     var linkedin = document.querySelector('.grid-item-linkedin')
+    var projectLinks = document.querySelector('.project-links')
+    
 
     body.classList.toggle("dark-mode");
     about.classList.toggle("grid-item-about-dark");
@@ -29,6 +31,7 @@ function toggleMode() {
     skills.classList.toggle("grid-item-skills-dark");
     cv.classList.toggle("a-dark");
     resume.classList.toggle("a-dark");
+    projectLinks.classList.toggle("a-dark");
     github.classList.toggle("grid-item-git-dark");
     linkedin.classList.toggle("grid-item-linkedin-dark");
     scy.classList.toggle("a-dark-social");

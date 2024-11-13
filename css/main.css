@@ -62,10 +62,20 @@ body {
 /* ABOUT ME */
 
 .about-me-title {
-    
+    padding: 40px 0px 20px 0px;
+    text-align: center;
+    font-size: 3.5em;
+    font-weight: 500;
 }
 
+.about-me-desc {
+    text-align: center;
+    font-size: 1.5em;
+}
 
+#email-id {
+    color: var(--tile-dark-color-orange);
+}
 
 
 

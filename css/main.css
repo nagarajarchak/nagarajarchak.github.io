@@ -43,6 +43,34 @@ body {
     transition: var(--mode-transition-time);
 }
 
+#main-container {
+    margin-top: 10vh;
+}
+
+/* PROFILE PICTURE */
+
+.profile-pic {
+    width: 100%;
+    text-align: center;
+}
+
+.my-picture {
+    width: 250px;
+    border-radius: 75px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 .grid {
     width: 100%;
 }
@@ -117,11 +145,11 @@ a:hover {
     width: 200px;
 }
 
-.my-picture {
+/* .my-picture {
     width: 100%;
     border-radius: 15px;
     box-shadow: 0px 0px var(--shadow-strength) var(--shadow-color);
-}
+} */
 
 /* TILE CHARACTERISTICS */
 

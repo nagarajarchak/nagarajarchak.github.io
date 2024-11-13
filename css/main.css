@@ -170,14 +170,14 @@ body {
     height: 53px;
     width: 53px;
     transition: var(--mode-transition-time);
-    background-color: var(--icon-color-gray);
+    background-color: #667380;
     transition: var(--link-transition-time);
     text-align: center;
     padding-top: 11px;
 }
 
 .grid-item-git-dark {
-    background-color: var(--tile-dark-color-gray);
+    background-color: #5d6975;
     transition: var(--mode-transition-time);
 }
 
@@ -198,7 +198,7 @@ body {
     margin-top: var(--margin-top);
     height: 53px;
     width: 53px;
-    background-color: var(--icon-color-gray);
+    background-color: #0077B5;
     transition: var(--mode-transition-time);
     transition: var(--link-transition-time);
     text-align: center;

@@ -17,6 +17,7 @@
     --tile-color-gray: #f1f1f1;
 
     --color-white: #fff;
+    --light-bg-color: #eaf4ff;
     --color-black: #000;
     --icon-color-gray: #a7a7a7;
     --hover-color: #3e7eff;
@@ -25,7 +26,7 @@
     
     /* DARK MORE ATTRIBUTES */
 
-    --dark-mode-bg-color: #1b3349;
+    --dark-mode-bg-color: #141c24;
     --tile-dark-color-blue: #7fc1ffb4;
     --tile-dark-color-orange: #ff963f;
     --tile-dark-color-gray: #426d95;
@@ -38,7 +39,7 @@
 body {
     margin: var(--margin-all);
     font-family: "Jost", sans-serif;
-    background-color: var(--color-white);
+    background-color: var(--light-bg-color);
     color: var(--color-black);
     transition: var(--mode-transition-time);
 }
@@ -56,7 +57,7 @@ body {
 
 .my-picture {
     width: 250px;
-    border-radius: 75px;
+    border-radius: 100%;
 }
 
 /* ABOUT ME */
@@ -160,6 +161,7 @@ body {
 #mode:hover {
     transition: var(--link-transition-time);
     background-color: var(--tile-dark-color-orange);
+    cursor: pointer;
 }
 
 /* GITHUB */
@@ -386,7 +388,7 @@ a:hover {
 }
 
 #scyt:hover {
-    color: var(--hover-sc-dark-color);
+    color: var(--hover-dark-color);
     transition: var(--link-transition-time);
 }
 
@@ -395,7 +397,7 @@ a:hover {
 }
 
 #scin:hover {
-    color: var(--hover-sc-dark-color);
+    color: var(--hover-dark-color);
     transition: var(--link-transition-time);
 }
 

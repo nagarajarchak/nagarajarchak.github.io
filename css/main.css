@@ -104,7 +104,7 @@ body {
     margin: 0;
 }
 
-#mode, #git, #linkedin {
+#mode, #git, #linkedin, #blog {
     text-align: center;
     justify-content: center;
     height: 60px;
@@ -118,18 +118,22 @@ body {
     border-radius: 100%;
     z-index: 10000 !important;
     position: fixed;
-    top: 37%;
-    left: 25px;
+    top: 34%;
+    left: 35px;
     transition: 0.2s;
 }
 
 
 #git {
-    top: 46%;
+    top: 43%;
 }
 
 #linkedin {
-    top: 55%;
+    top: 52%;
+}
+
+#blog {
+    top: 61%;
 }
 
 .grid-item {
@@ -225,6 +229,38 @@ body {
     background-color: var(--tile-dark-color-blue);
 }
 
+/* LINKEDIN */
+
+.grid-item-blog {
+    margin-left: 23px;
+    margin-top: 203px;
+    height: 53px;
+    width: 53px;
+    background-color: #ff963f;
+    transition: var(--mode-transition-time);
+    transition: var(--link-transition-time);
+    text-align: center;
+    padding-top: 17px;
+    padding-left: 17px;
+}
+
+.grid-item-blog-dark {
+    background-color: var(--tile-dark-color-gray);
+    transition: var(--mode-transition-time);
+}
+
+.fa-rss {
+    color: var(--color-white);
+    font-size: 1.6em;
+    padding-left: 3px;
+    padding-top: 2px;
+}
+
+#blog:hover {
+    transition: var(--link-transition-time);
+    background-color: var(--tile-dark-color-blue);
+}
+
 /* EDUCATION */
 
 .education-title {
@@ -289,24 +325,6 @@ body {
 }
 
 .project-item {
-    font-size: 1.5em;
-    color: var(--tile-dark-color-orange);
-}
-
-/* BLOG */
-
-.blog-title {
-    padding-top: 50px;
-    padding-bottom: 10px;
-    font-size: 3.5em;
-    font-weight: 500;
-}
-
-.blog-desc {
-    font-size: 1.4em;
-}
-
-.blog-item {
     font-size: 1.5em;
     color: var(--tile-dark-color-orange);
 }
@@ -469,20 +487,6 @@ a:hover {
     .project-item {
         font-size: 1.3em;
         color: var(--tile-dark-color-orange);
-    }
-    
-    /* BLOG */
-    
-    .blog-title {
-        font-size: 2em;
-    }
-    
-    .blog-desc {
-        font-size: 1.25em;
-    }
-    
-    .blog-item {
-        font-size: 1.3em;
     }
 
     /* MUSIC */

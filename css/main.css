@@ -232,16 +232,15 @@ body {
 /* LINKEDIN */
 
 .grid-item-blog {
-    margin-left: 23px;
-    margin-top: 203px;
+    margin-left: var(--margin-left);
+    margin-top: var(--margin-top);
     height: 53px;
     width: 53px;
     background-color: #ff963f;
     transition: var(--mode-transition-time);
     transition: var(--link-transition-time);
     text-align: center;
-    padding-top: 17px;
-    padding-left: 17px;
+    padding-top: 11px;
 }
 
 .grid-item-blog-dark {
@@ -435,7 +434,7 @@ a:hover {
         margin-top: var(--margin-top);
     }
 
-    .grid-item-git, .grid-item-linkedin {
+    .grid-item-git, .grid-item-linkedin, .grid-item-blog {
         margin-left: 0;
     }
 

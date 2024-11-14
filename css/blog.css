@@ -40,3 +40,19 @@ a:hover {
     color: #7fc1ffb4;
     transition: 0.2s;
 }
+
+@media (max-width: 500px) {
+
+    .blog-title {
+        font-size: 5em;
+    }
+
+    .blog-item-desc {
+        font-size: 1em;
+    }
+
+    .blog-item {
+        font-size: 1.2em;
+    }
+
+}

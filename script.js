@@ -14,12 +14,9 @@ function toggleMode() {
     var github = document.querySelector('.grid-item-git')
     var linkedin = document.querySelector('.grid-item-linkedin')
     var projectLinks = document.querySelector('.project-links')
-    var blogLinks = document.querySelector('.blog-links')
-    
 
     body.classList.toggle("dark-mode");
     projectLinks.classList.toggle("a-dark");
-    blogLinks.classList.toggle("a-dark");
     github.classList.toggle("grid-item-git-dark");
     linkedin.classList.toggle("grid-item-linkedin-dark");
     scy.classList.toggle("a-dark-social");

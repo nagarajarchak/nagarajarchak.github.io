@@ -37,7 +37,6 @@
 }
 
 body {
-    /* margin: var(--margin-all); */
     font-family: "Jost", sans-serif;
     background-color: var(--light-bg-color);
     color: var(--color-black);
